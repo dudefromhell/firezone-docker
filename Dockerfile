@@ -1,4 +1,4 @@
-FROM ubuntu:20
+FROM ubuntu
 
 RUN bash <(curl -Ls https://github.com/firezone/firezone/raw/master/scripts/install.sh)
 
